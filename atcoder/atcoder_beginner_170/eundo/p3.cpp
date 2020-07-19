@@ -1,3 +1,5 @@
+// Wrong Answer
+
 #include <iostream>
 #include <vector>
 
@@ -36,6 +38,13 @@ int main() {
             larger_candidate++;
             smaller_candidate--;
         }
+    }
+    
+    int delta_up = larger_candidate - x;
+    int delta_down = x - smaller_candidate;
+    if (delta_up < delta_down) {
+        cout << larger_candidate + 1 << endl;
+        return 0;
     }
 
     cout << smaller_candidate + 1 << endl;
