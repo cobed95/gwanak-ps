@@ -1,3 +1,5 @@
+// Accepted
+
 #include <iostream>
 #include <vector>
 #include <map>
