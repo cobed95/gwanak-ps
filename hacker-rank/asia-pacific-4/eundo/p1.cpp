@@ -52,4 +52,3 @@ int main() {
     cin >> d;
     cout << minimumMoves(s, d) << endl;
 }
-
